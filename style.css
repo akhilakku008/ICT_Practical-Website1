@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    
+}
+
+body{
+    background-size: cover;
+    background-repeat:no-repeat;
+    
+
+    
+}
+
+.logo_head{
+    width: 50px;
+    height: 50px;
+    margin-left: 10%;
+    margin-top: 15px;
+    filter: brightness(80%);
+    box-shadow: 3px 3px 2px black;
+     
+    
+}
+.logo_head:hover{
+    filter: brightness(100%);
+   
+}
+
+
+header{
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+    height: 5em;
+    
+}
+.nav_head{
+    float: right;
+    margin-right: 38px;
+    margin-top: 32px;
+}
+.nav_head a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: rgb(245, 230, 230);
+    padding: 10px;
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+    background-color: rgb(0, 0, 0);
+    text-transform: uppercase;
+}
+.nav_head a:hover{
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+    background-color:rgb(61, 228, 28) ;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    
+}
+
+
+
+.sidebar{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(250, 233, 0);
+   padding: 150px;
+  text-shadow: 5px 6px 5px black;
+
+}
+.sidebar .aside_list{
+    padding: 20px;
+}
+.aside_list li{
+    margin-bottom: 15px;
+    list-style: square;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.aside_head{
+    text-indent: 25px;
+}
+.login_section{
+float: right;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+border: 2px solid rgb(7, 7, 7);
+border-radius: 20px;
+background: #7F7FD5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+height: 16em;
+/* width: 12em; */
+margin-right: 2%;
+margin-top: 5%;
+padding: 30px;
+}
+.user{
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    font-size: 25px;
+    
+
+}
+.login_btn{
+    text-align: center;
+}
+.user_login .btn{
+    width: 100%;
+    /* width: 12em; */
+    height: 2em;
+    font-weight: bold;
+    background-color:dodgerblue;
+    border: 0;
+    color: rgb(0, 0, 0);
+    box-shadow:2px 3px 1px  rgb(26, 182, 187);
+}
+.btn:hover{
+    background-color: green;
+    color: black;
+    cursor: pointer;
+    box-shadow:2px 3px 4px rgb(53, 54, 52);
+}
+.user_login input{
+    height: 2em;
+    border-radius: 8px;   
+}
+.user_login label{
+    font-weight: bold;
+}
+.fa-sign-in-alt{
+   color: rgb(22, 22, 20);
+   font-size: 18px;
+   letter-spacing: 8px;
+   
+}
+.container{
+    color: #fff;
+    /* border: 2px solid rgb(255, 8, 8); */
+    margin-left: 2%;
+    padding-right: 6%;
+    margin-top: -2em;
+
+    }
+.p_box{
+    border:2px solid #fff;
+    width: 22%;
+    float: right;
+    margin-left:25px;
+    height: 20em;
+    background-color: rgb(15, 83, 83);
+    border-radius: 5px;
+}
+.p_box h3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 15px;
+    color: rgb(210, 253, 16);
+}
+.p_box p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.45em;
+    text-align: justify;
+    padding: 10px;
+    text-indent: 15px;
+}
+.read{
+    text-decoration: none;
+    color: rgb(255, 119, 8);
+    text-align: center;
+    font-weight: bold;
+    padding-left: 1px;
+    
+}
+.read:hover{
+    text-decoration: underline;
+    color: rgb(63, 206, 7);
+}
+footer{
+    color: #fff;
+    background-color: black;
+    height: 50px;
+    margin-top: 33%;
+    text-align: center;
+    font-family:sans-serif;
+}
+footer h3{
+    font-size: 15px;
+}
+.credit{
+    font-size: 15px;
+    float: right;
+    padding-right: 15px;
+    text-align: center;
+    color: rgb(117, 117, 95);
+    font-family:monospace;
+}
+.back{
+    float: left;
+    text-align: center;
+    padding-left: 12px;
+}
+a .fa-arrow-up{
+    font-size: 15px;
+    color: rgb(247, 231, 14);
+
+}
+a .back{
+    color: #fff;
+}
+.social_icon{
+    margin-top: 8px;
+    word-spacing: 10px;
+    margin-left: 11em;
+}
+.fa-linkedin, .fa-youtube{
+color: #fff;
+}
